@@ -1,20 +1,11 @@
 #ifndef MAJOR1_H
 #define MAJOR1_H
 
-void countLeadingZeroes() {
-    printf("Test Output 1\n");
-}
+#include <stdio.h>
 
-void endianSwap() {
-    printf("Test Output 2\n");
-}
-
-void rotateRight() {
-    printf("Test Output 3\n");
-}
-
-void parity() {
-    printf("Test Output 4\n");
-}
+unsigned int countLeadingZeros(unsigned int);
+unsigned int endianSwap(unsigned int); 
+unsigned int rotateRight(unsigned int, unsigned int);
+unsigned int checkParity(unsigned int);
 
 #endif
